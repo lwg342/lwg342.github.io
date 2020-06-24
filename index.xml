@@ -23,18 +23,6 @@ Jun 8
     </item>
     
     <item>
-      <title>Modern Art</title>
-      <link>https://lwg342.github.io/Notes/modern-art/</link>
-      <pubDate>Mon, 18 May 2020 21:42:10 +0100</pubDate>
-      
-      <guid>https://lwg342.github.io/Notes/modern-art/</guid>
-      <description>Modern and Post-Modern Art 现代艺术 从19世纪开始，现代艺术产生了，他们有一些不同于以往的特点。
-时代背景 殖民扩张的高潮。
-主要流派和代表人物 后现代艺术 时间和时代背景。
-主要流派 代表人物和作品 </description>
-    </item>
-    
-    <item>
       <title>五月15</title>
       <link>https://lwg342.github.io/posts/0515/</link>
       <pubDate>Fri, 15 May 2020 21:20:55 +0100</pubDate>
@@ -43,29 +31,6 @@ Jun 8
       <description>让·皮埃尔先生在1769年8月15日的日记里记下了这样一件事情， 他当时还是巴黎一所中学的学生：
 “今天我们学了一节短诗，说人的一生像一本书，从封面一页页翻到结尾，每一页都有奇妙的故事，这让我有些伤感，既因为我的生活里似乎还没有发生过什么奇妙的故事，也因为我知道这本书翻过的每一页都不能回头，一旦合上便再也不会被打开。文学老师玛丽小姐告诉我们要努力写好自己的书。假如我做好准备，也许也会有机会吧，去经历独特的故事，去经历只属于我的历史。今天买面包和牛奶花了xxx元，明天要早点起床，做&amp;hellip;&amp;rdquo;
 那一天拿破仑出生在科西嘉岛上，让·皮埃尔先生后来成为他手下的一个小军官，病死在征战途中。</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://lwg342.github.io/Notes/Economy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lwg342.github.io/Notes/Economy/</guid>
-      <description>On the Real Economy For this part I think the following need to included:
- Data source and key variables; Regulations and historical changes; Politics.  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://lwg342.github.io/Notes/Finance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lwg342.github.io/Notes/Finance/</guid>
-      <description>Finance Asset Pricing Chapte 1 State Pricing Reading Notes
-About state pricing: derivation from no arbitrage condition. Uses Separating Hyperplane Theorem. Also derived from agent maximization problem.
-Notice that when we derive it from agent&amp;rsquo;s maximization problem, it&amp;rsquo;s related to marginal utility which has more economic meaning than derived from arbitrage.
-The state price vector, the risk neutral probability and state-space deflator play central roles in asset pricing.
-Chapter 2 Multi-Period Finite State </description>
     </item>
     
     <item>
@@ -100,16 +65,6 @@ Chapter 2 Multi-Period Finite State </description>
     </item>
     
     <item>
-      <title>Math</title>
-      <link>https://lwg342.github.io/Notes/Math/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lwg342.github.io/Notes/Math/</guid>
-      <description>Notes on Math and Stats  The Main One  Linear Algebra and Matrix Analysis  Vector Spaces, inner product and Spectral Theorems. Isometry and PSD, Polar and Singular Value Decomposition Jordan Basis Normal Real linear operator Hermitian Matrices  Analysis Handwriting
- Mathematical Analysis Overview and notes on Lebesgue Measurability and Convergence Modes.  Probability  Conditioning and Product Measure Probability and Martingale  Empirical Process  Empirical Process Notes Chapter 37 of Handbook van der Vaart and Wellner  Math Stats  Statistics Notes  Machine Learning NBER lecture seems useful.</description>
-    </item>
-    
-    <item>
       <title>Paper 6 Banking and Finance</title>
       <link>https://lwg342.github.io/Teaching/Paper6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -117,6 +72,16 @@ Chapter 2 Multi-Period Finite State </description>
       <guid>https://lwg342.github.io/Teaching/Paper6/</guid>
       <description>Paper 6 Banking and Finance About different channels Link to Bernanke speech
  Financial accelerator: changes in financial and credit conditions are important in the propagation of the business cycle, a mechanism that has been dubbed the &amp;ldquo;financial accelerator.&amp;rdquo; Credit channel: changes in financial conditions may amplify the effects of monetary policy on the economy, the so-called credit channel of monetarypolicy transmission. Credit channel works through (wiki link)  Balance sheet channel Bank lending channel    Models  CSV model CE model  Both models can show the financial acceleartor and the credit channel: roughly speaking, the models predict/explain that when a shock happens, it will be amplified through the banking system because banks will change credit rationing behaviour.</description>
+    </item>
+    
+    <item>
+      <title>Readings</title>
+      <link>https://lwg342.github.io/Notes/Math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lwg342.github.io/Notes/Math/</guid>
+      <description>Notes on Math and Stats  The Main One  Linear Algebra and Matrix Analysis  Vector Spaces, inner product and Spectral Theorems. Isometry and PSD, Polar and Singular Value Decomposition Jordan Basis Normal Real linear operator Hermitian Matrices Matrix Norm Perturbation Random Matrix  Analysis Handwriting
+ Mathematical Analysis Overview and notes on Lebesgue Measurability and Convergence Modes  Probability  Conditioning and Product Measure Probability and Martingale  Empirical Process  Empirical Process Notes Chapter 37 of Handbook van der Vaart and Wellner  Math Stats  Statistics Notes  Machine Learning NBER lecture seems useful.</description>
     </item>
     
   </channel>
