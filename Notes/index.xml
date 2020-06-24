@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Weiguang Liu</title>
+    <link>https://lwg342.github.io/Notes/</link>
+    <description>Recent content in Notes on Weiguang Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://lwg342.github.io/Notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>History</title>
+      <link>https://lwg342.github.io/Notes/History/</link>
+      <pubDate>Mon, 18 May 2020 22:01:58 +0000</pubDate>
+      
+      <guid>https://lwg342.github.io/Notes/History/</guid>
+      <description>Contemporary History 2020 May 18 《中共中央国务院关于新时代加快完善社会主义市场经济体制的意见》全文链接
+May 25 George Floyd, a 46-year-old black man, died in Minneapolis, Minnesota, after Derek Chauvin, a white police officer, knelt on Floyd&amp;rsquo;s neck for almost nine minutes while Floyd was handcuffed face down in the street. Protests all over US and around the world.
+May 28 民法典颁布。2021年1月1日施行。
+Jun 8
+ A lot of companies have laid off people because of the Coronavirus pandemic. The US has seen the worst unemployment rate.</description>
+    </item>
+    
+    <item>
+      <title>Modern Art</title>
+      <link>https://lwg342.github.io/Notes/modern-art/</link>
+      <pubDate>Mon, 18 May 2020 21:42:10 +0100</pubDate>
+      
+      <guid>https://lwg342.github.io/Notes/modern-art/</guid>
+      <description>Modern and Post-Modern Art 现代艺术 从19世纪开始，现代艺术产生了，他们有一些不同于以往的特点。
+时代背景 殖民扩张的高潮。
+主要流派和代表人物 后现代艺术 时间和时代背景。
+主要流派 代表人物和作品 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lwg342.github.io/Notes/Economy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lwg342.github.io/Notes/Economy/</guid>
+      <description>On the Real Economy For this part I think the following need to included:
+ Data source and key variables; Regulations and historical changes; Politics.  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lwg342.github.io/Notes/Finance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lwg342.github.io/Notes/Finance/</guid>
+      <description>Finance Asset Pricing Chapte 1 State Pricing Reading Notes
+About state pricing: derivation from no arbitrage condition. Uses Separating Hyperplane Theorem. Also derived from agent maximization problem.
+Notice that when we derive it from agent&amp;rsquo;s maximization problem, it&amp;rsquo;s related to marginal utility which has more economic meaning than derived from arbitrage.
+The state price vector, the risk neutral probability and state-space deflator play central roles in asset pricing.
+Chapter 2 Multi-Period Finite State </description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>https://lwg342.github.io/Notes/Math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lwg342.github.io/Notes/Math/</guid>
+      <description>Notes on Math and Stats  The Main One  Linear Algebra and Matrix Analysis  Vector Spaces, inner product and Spectral Theorems. Isometry and PSD, Polar and Singular Value Decomposition Jordan Basis Normal Real linear operator Hermitian Matrices  Analysis Handwriting
+ Mathematical Analysis Overview and notes on Lebesgue Measurability and Convergence Modes.  Probability  Conditioning and Product Measure Probability and Martingale  Empirical Process  Empirical Process Notes Chapter 37 of Handbook van der Vaart and Wellner  Math Stats  Statistics Notes  Machine Learning NBER lecture seems useful.</description>
+    </item>
+    
+  </channel>
+</rss>
