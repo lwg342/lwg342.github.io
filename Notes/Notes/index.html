@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Notes on Math and Stats  The Main One  Linear Algebra and Matrix Analysis  Vector Spaces, inner product and Spectral Theorems. Isometry and PSD, Polar and Singular Value Decomposition Jordan Basis Normal Real linear operator Hermitian Matrices Matrix Norm Perturbation Random Matrix  Analysis Handwriting
+ Mathematical Analysis Overview and notes on Lebesgue Measurability and Convergence Modes  Probability  Conditioning and Product Measure Probability and Martingale  Empirical Process  Empirical Process Notes Chapter 37 of Handbook van der Vaart and Wellner  Math Stats  Statistics Notes  Machine Learning NBER lecture seems useful.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Notes" />
+<meta property="og:description" content="Notes on Math and Stats  The Main One  Linear Algebra and Matrix Analysis  Vector Spaces, inner product and Spectral Theorems. Isometry and PSD, Polar and Singular Value Decomposition Jordan Basis Normal Real linear operator Hermitian Matrices Matrix Norm Perturbation Random Matrix  Analysis Handwriting
+ Mathematical Analysis Overview and notes on Lebesgue Measurability and Convergence Modes  Probability  Conditioning and Product Measure Probability and Martingale  Empirical Process  Empirical Process Notes Chapter 37 of Handbook van der Vaart and Wellner  Math Stats  Statistics Notes  Machine Learning NBER lecture seems useful." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lwg342.github.io/Notes/Notes/" />
+
+<title>Notes | Weiguang Liu</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.d7fcbacc460ed59abe2512db73105d2d2cca68c0880febf9062c13874b4607b4.css" integrity="sha256-1/y6zEYO1Zq&#43;JRLbcxBdLSzKaMCID&#43;v5BiwTh0tGB7Q=">
+<script defer src="/en.search.min.007f76aa14f8e588f9da08a7d8bd0dc44aa15a4ab96c5bd39f46de9585fc0de6.js" integrity="sha256-AH92qhT45Yj52gin2L0NxEqhWkq5bFvTn0belYX8DeY="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-135387846-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Weiguang Liu</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/Teaching/" class="collapsed ">Teaching</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/Journal/" class="">Journal</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/Notes/" class="collapsed ">Notes</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/Notes/History/" class="">History</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/Notes/Finance/" class="">Finance</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/Notes/Notes/" class="active">Notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/Notes/Reviews/" class="">Reviews</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Notes</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#notes-on-math-and-stats">Notes on Math and Stats</a>
+      <ul>
+        <li><a href="#linear-algebra-and-matrix-analysis">Linear Algebra and Matrix Analysis</a></li>
+        <li><a href="#analysis">Analysis</a></li>
+        <li><a href="#probability">Probability</a></li>
+        <li><a href="#empirical-process">Empirical Process</a></li>
+        <li><a href="#math-stats">Math Stats</a></li>
+        <li><a href="#machine-learning">Machine Learning</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="notes-on-math-and-stats">Notes on Math and Stats</h1>
+<ul>
+<li><a href="https://universityofcambridgecloud-my.sharepoint.com/personal/wl342_cam_ac_uk/Documents/Notes/Mathematics/My.pdf">The Main One</a></li>
+</ul>
+<h2 id="linear-algebra-and-matrix-analysis">Linear Algebra and Matrix Analysis</h2>
+<ul>
+<li><a href="https://universityofcambridgecloud-my.sharepoint.com/personal/wl342_cam_ac_uk/Documents/Storage/Handwritings/20200605-3.pdf">Vector Spaces, inner product and Spectral Theorems</a>.</li>
+<li><a href="">Isometry and PSD, Polar and Singular Value Decomposition</a></li>
+<li><a href="">Jordan Basis</a></li>
+<li><a href="">Normal Real linear operator</a></li>
+<li><a href="https://universityofcambridgecloud-my.sharepoint.com/personal/wl342_cam_ac_uk/Documents/Notes/LA/Matrix-Analysis.pdf">Hermitian Matrices</a></li>
+<li><a href="">Matrix Norm</a></li>
+<li><a href="">Perturbation</a></li>
+<li><a href="">Random Matrix</a></li>
+</ul>
+<h2 id="analysis">Analysis</h2>
+<p><strong>Handwriting</strong></p>
+<ul>
+<li><a href="https://universityofcambridgecloud-my.sharepoint.com/personal/wl342_cam_ac_uk/Documents/Notes/Math-Analysis/ma.pdf">Mathematical Analysis</a></li>
+<li><a href="https://universityofcambridgecloud-my.sharepoint.com/personal/wl342_cam_ac_uk/Documents/Storage/Handwritings/20200605-2.pdf">Overview and notes on Lebesgue Measurability and Convergence Modes</a></li>
+</ul>
+<h2 id="probability">Probability</h2>
+<ul>
+<li><a href="https://universityofcambridgecloud-my.sharepoint.com/personal/wl342_cam_ac_uk/Documents/Storage/Handwritings/20200605-1.pdf">Conditioning and Product Measure</a></li>
+<li><a href="https://universityofcambridgecloud-my.sharepoint.com/personal/wl342_cam_ac_uk/Documents/Notes/Martingale/martingale-limit-theorems.pdf">Probability and Martingale</a></li>
+</ul>
+<h2 id="empirical-process">Empirical Process</h2>
+<ul>
+<li><a href="https://universityofcambridgecloud-my.sharepoint.com/personal/wl342_cam_ac_uk/Documents/Notes/EP/ep.pdf">Empirical Process Notes</a></li>
+<li>Chapter 37 of Handbook</li>
+<li>van der Vaart and Wellner</li>
+</ul>
+<h2 id="math-stats">Math Stats</h2>
+<ul>
+<li><a href="https://universityofcambridgecloud-my.sharepoint.com/personal/wl342_cam_ac_uk/Documents/Notes/Statistics/ms.pdf">Statistics Notes</a></li>
+</ul>
+<h2 id="machine-learning">Machine Learning</h2>
+<p><a href="https://www.nber.org/econometrics_minicourse_2015/syllabus.pdf">NBER lecture</a> seems useful.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#notes-on-math-and-stats">Notes on Math and Stats</a>
+      <ul>
+        <li><a href="#linear-algebra-and-matrix-analysis">Linear Algebra and Matrix Analysis</a></li>
+        <li><a href="#analysis">Analysis</a></li>
+        <li><a href="#probability">Probability</a></li>
+        <li><a href="#empirical-process">Empirical Process</a></li>
+        <li><a href="#math-stats">Math Stats</a></li>
+        <li><a href="#machine-learning">Machine Learning</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
