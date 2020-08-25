@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lwg342.github.io/Notes/Notes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lwg342.github.io/Notes/Journal/</loc>
+  </url>
+  
+  <url>
     <loc>https://lwg342.github.io/Teaching/</loc>
     <lastmod>2020-06-24T17:00:30+01:00</lastmod>
   </url>
@@ -13,8 +21,17 @@
   </url>
   
   <url>
+    <loc>https://lwg342.github.io/Notes/History/</loc>
+    <lastmod>2020-05-18T22:01:58+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lwg342.github.io/posts/0515/</loc>
     <lastmod>2020-06-24T17:00:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lwg342.github.io/Notes/Physics/</loc>
   </url>
   
   <url>
@@ -46,17 +63,8 @@
   </url>
   
   <url>
-    <loc>https://lwg342.github.io/Journal/</loc>
-    <lastmod>2020-06-29T11:06:40+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lwg342.github.io/Notes/</loc>
     <lastmod>2020-06-24T17:00:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lwg342.github.io/Notes/Notes/</loc>
   </url>
   
   <url>
@@ -65,16 +73,7 @@
   </url>
   
   <url>
-    <loc>https://lwg342.github.io/Notes/Physics/</loc>
-  </url>
-  
-  <url>
     <loc>https://lwg342.github.io/posts/</loc>
-    <lastmod>2020-06-29T11:06:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lwg342.github.io/Notes/Reviews/</loc>
     <lastmod>2020-06-29T11:06:40+01:00</lastmod>
   </url>
   

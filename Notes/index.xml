@@ -10,7 +10,26 @@
     
     
     <item>
-      <title>History</title>
+      <title>Notes</title>
+      <link>https://lwg342.github.io/Notes/Notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lwg342.github.io/Notes/Notes/</guid>
+      <description>Notes on Math and Stats  The Main One  Linear Algebra and Matrix Analysis  Vector Spaces, inner product and Spectral Theorems. Isometry and PSD, Polar and Singular Value Decomposition Jordan Basis Normal Real linear operator Hermitian Matrices Matrix Norm Perturbation Random Matrix  Analysis Handwriting
+ Mathematical Analysis Overview and notes on Lebesgue Measurability and Convergence Modes  Probability  Conditioning and Product Measure Probability and Martingale  Empirical Process  Empirical Process Notes Chapter 37 of Handbook van der Vaart and Wellner  Math Stats  Statistics Notes  Machine Learning NBER lecture seems useful.</description>
+    </item>
+    
+    <item>
+      <title>Journal</title>
+      <link>https://lwg342.github.io/Notes/Journal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lwg342.github.io/Notes/Journal/</guid>
+      <description>Journal 2020 Journal</description>
+    </item>
+    
+    <item>
+      <title>History Record</title>
       <link>https://lwg342.github.io/Notes/History/</link>
       <pubDate>Mon, 18 May 2020 22:01:58 +0000</pubDate>
       
@@ -23,13 +42,21 @@ Jun 8
     </item>
     
     <item>
+      <title></title>
+      <link>https://lwg342.github.io/Notes/Physics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lwg342.github.io/Notes/Physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data</title>
       <link>https://lwg342.github.io/Notes/Data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lwg342.github.io/Notes/Data/</guid>
-      <description>Data On the Macroeconomy For this part I think the following need to included:
- Data source and key variables; Regulations and historical changes; Politics.  On Capital Markets </description>
+      <description>Data On Stock Markets  CRSP French&amp;rsquo;s Website Factor Zoo Data &amp;ldquo;Dissecting Characteristics Nonparametrically&amp;rdquo; Data Explanation High Frequency Data Volume Data  On the Macroeconomy  Country GDP Regional GDP  </description>
     </item>
     
     <item>
@@ -38,35 +65,7 @@ Jun 8
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lwg342.github.io/Notes/Finance/</guid>
-      <description>Finance Asset Pricing  Discrete Time Finance Continuous Time Finance Derivative Pricing  Empirical Finance  Testing Asset Pricing Models Volatility Microstructure Noises  Macro-Finance  Equity Premium Puzzle International Macro Finance  Behavioral Finance Financial Crisis and Bubbles </description>
-    </item>
-    
-    <item>
-      <title>Notes</title>
-      <link>https://lwg342.github.io/Notes/Notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lwg342.github.io/Notes/Notes/</guid>
-      <description>Notes on Math and Stats  The Main One  Linear Algebra and Matrix Analysis  Vector Spaces, inner product and Spectral Theorems. Isometry and PSD, Polar and Singular Value Decomposition Jordan Basis Normal Real linear operator Hermitian Matrices Matrix Norm Perturbation Random Matrix  Analysis Handwriting
- Mathematical Analysis Overview and notes on Lebesgue Measurability and Convergence Modes  Probability  Conditioning and Product Measure Probability and Martingale  Empirical Process  Empirical Process Notes Chapter 37 of Handbook van der Vaart and Wellner  Math Stats  Statistics Notes  Machine Learning NBER lecture seems useful.</description>
-    </item>
-    
-    <item>
-      <title>Physics</title>
-      <link>https://lwg342.github.io/Notes/Physics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lwg342.github.io/Notes/Physics/</guid>
-      <description>Physics Mechanics Statistical Physics Quantum </description>
-    </item>
-    
-    <item>
-      <title>Reviews</title>
-      <link>https://lwg342.github.io/Notes/Reviews/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lwg342.github.io/Notes/Reviews/</guid>
-      <description> On Asset Pricing Models Empirical Testing of Asset Pricing Models Specification Tests Empirical Likelihood Method  </description>
+      <description></description>
     </item>
     
   </channel>
