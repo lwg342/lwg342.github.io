@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Weiguang Liu</title>
+    <title>Nonlinear Beta Tests Results on Weiguang Liu</title>
     <link>https://lwg342.github.io/Nonlinear-Beta-Test-Results/</link>
-    <description>Recent content on Weiguang Liu</description>
+    <description>Recent content in Nonlinear Beta Tests Results on Weiguang Liu</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	<atom:link href="https://lwg342.github.io/Nonlinear-Beta-Test-Results/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lwg342.github.io/Nonlinear-Beta-Test-Results/result_Individual-Stock-Return-Full-Sample/</guid>
-      <description>Individual Stock Return Full Sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30-2017-12-29 Estimating Average Excess Return with:	1976-07-30 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 463)     Model Tn Left CV Right CV Is Nonlinear?     MktRf 2.144 -1.474 1.778 *   HML 2.126 -1.422 1.363 *   SMB -0.185 -1.489 1.566    nxf -0.</description>
+      <description>Individual Stock Return Full Sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30 to 2017-12-29 Estimating Average Excess Return with:	1976-07-30 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 463)     Model Tn Left CV Right CV Is Nonlinear?     MktRf 2.144 -1.474 1.778 *   HML 2.126 -1.422 1.363 *   SMB -0.185 -1.489 1.566    nxf -0.</description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lwg342.github.io/Nonlinear-Beta-Test-Results/result_Individual-Stock-Return-Sub-sample/</guid>
-      <description>Individual Stock Return Sub-sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30-1999-12-31 Estimating Average Excess Return with:	2000-01-31 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 463)     Model Tn Left CV Right CV Is Nonlinear?     MktRf -0.896 -1.43 1.408    HML 0.107 -1.387 1.107    SMB 2.167 -1.486 1.665 *   nxf 0.648 -1.</description>
+      <description>Individual Stock Return Sub-sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30 to 1999-12-31 Estimating Average Excess Return with:	2000-01-31 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 463)     Model Tn Left CV Right CV Is Nonlinear?     MktRf -0.896 -1.43 1.408    HML 0.107 -1.387 1.107    SMB 2.167 -1.486 1.665 *   nxf 0.</description>
     </item>
     
     <item>
@@ -33,7 +33,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lwg342.github.io/Nonlinear-Beta-Test-Results/result_Portfolio-202-Full-Sample/</guid>
-      <description>Portfolio 202 Full Sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30-2017-12-29 Estimating Average Excess Return with:	1976-07-30 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 202)     Model Tn Left CV Right CV Is Nonlinear?     MktRf 4.379 -1.488 1.353 *   HML -0.122 -1.405 1.157    SMB 4.652 -1.517 1.604 *   nxf 9.292 -1.</description>
+      <description>Portfolio 202 Full Sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30 to 2017-12-29 Estimating Average Excess Return with:	1976-07-30 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 202)     Model Tn Left CV Right CV Is Nonlinear?     MktRf 4.379 -1.488 1.353 *   HML -0.122 -1.405 1.157    SMB 4.652 -1.517 1.604 *   nxf 9.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lwg342.github.io/Nonlinear-Beta-Test-Results/result_Portfolio-202-Individual-Factor/</guid>
-      <description>Portfolio 202 Individual Factor  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30-2017-12-29 Estimating Average Excess Return with:	1976-07-30 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 202)     Model Tn Left CV Right CV Is Nonlinear?     BAB 0.225 -1.455 1.366    CMA -0.322 -1.457 1.064    HML -0.122 -1.405 1.157    HML_Devil 8.858 -1.</description>
+      <description>Portfolio 202 Individual Factor  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30 to 2017-12-29 Estimating Average Excess Return with:	1976-07-30 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 202)     Model Tn Left CV Right CV Is Nonlinear?     BAB 0.225 -1.455 1.366    CMA -0.322 -1.457 1.064    HML -0.122 -1.405 1.157    HML_Devil 8.</description>
     </item>
     
     <item>
@@ -51,7 +51,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lwg342.github.io/Nonlinear-Beta-Test-Results/result_Portfolio-202-Sub-sample/</guid>
-      <description>Portfolio 202 Sub-sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30-1999-12-31 Estimating Average Excess Return with:	2000-01-31 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 202)     Model Tn Left CV Right CV Is Nonlinear?     MktRf 0.031 -1.41 1.05    HML 0.333 -1.35 0.794    SMB 8.067 -1.615 1.434 *   nxf 12.305 -1.459 1.</description>
+      <description>Portfolio 202 Sub-sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30 to 1999-12-31 Estimating Average Excess Return with:	2000-01-31 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 202)     Model Tn Left CV Right CV Is Nonlinear?     MktRf 0.031 -1.41 1.05    HML 0.333 -1.35 0.794    SMB 8.067 -1.615 1.434 *   nxf 12.</description>
     </item>
     
     <item>
@@ -60,7 +60,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lwg342.github.io/Nonlinear-Beta-Test-Results/result_Portfolio-5x5-Full-Sample/</guid>
-      <description>Portfolio 5x5 Full Sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30-2017-12-29 Estimating Average Excess Return with:	1976-07-30 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 2875)     Model Tn Left CV Right CV Is Nonlinear?     MktRf 91.575 -1.543 1.467 *   HML 2.856 -1.504 1.292 *   SMB 45.278 -1.542 1.457 *   nxf 66.915 -1.</description>
+      <description>Portfolio 5x5 Full Sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30 to 2017-12-29 Estimating Average Excess Return with:	1976-07-30 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 2875)     Model Tn Left CV Right CV Is Nonlinear?     MktRf 91.575 -1.543 1.467 *   HML 2.856 -1.504 1.292 *   SMB 45.278 -1.542 1.457 *   nxf 66.</description>
     </item>
     
     <item>
@@ -69,7 +69,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lwg342.github.io/Nonlinear-Beta-Test-Results/result_Portfolio-5x5-Sub-sample/</guid>
-      <description>Portfolio 5x5 Sub-sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30-1999-12-31 Estimating Average Excess Return with:	2000-01-31 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 2875)     Model Tn Left CV Right CV Is Nonlinear?     MktRf 47.789 -1.497 1.549 *   HML 13.514 -1.5 1.454 *   SMB 127.715 -1.599 1.189 *   nxf 125.049 -1.612 1.</description>
+      <description>Portfolio 5x5 Sub-sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30 to 1999-12-31 Estimating Average Excess Return with:	2000-01-31 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 2875)     Model Tn Left CV Right CV Is Nonlinear?     MktRf 47.789 -1.497 1.549 *   HML 13.514 -1.5 1.454 *   SMB 127.715 -1.599 1.189 *   nxf 125.</description>
     </item>
     
   </channel>
