@@ -1,46 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cover on Weiguang Liu</title>
-    <link>https://lwg342.github.io/</link>
-    <description>Recent content in Cover on Weiguang Liu</description>
+    <title>Nonlinear Beta Tests Results on Weiguang Liu</title>
+    <link>https://lwg342.github.io/Nonlinear-Beta-Tests-Results/</link>
+    <description>Recent content in Nonlinear Beta Tests Results on Weiguang Liu</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://lwg342.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lwg342.github.io/Nonlinear-Beta-Tests-Results/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>五月15</title>
-      <link>https://lwg342.github.io/posts/0515/</link>
-      <pubDate>Fri, 15 May 2020 21:20:55 +0100</pubDate>
-      
-      <guid>https://lwg342.github.io/posts/0515/</guid>
-      <description>让·皮埃尔先生在1769年8月15日的日记里记下了这样一件事情， 他当时还是巴黎一所中学的学生：
-“今天我们学了一节短诗，说人的一生像一本书，从封面一页页翻到结尾，每一页都有奇妙的故事，这让我有些伤感，既因为我的生活里似乎还没有发生过什么奇妙的故事，也因为我知道这本书翻过的每一页都不能回头，一旦合上便再也不会被打开。文学老师玛丽小姐告诉我们要努力写好自己的书。假如我做好准备，也许也会有机会吧，去经历独特的故事，去经历只属于我的历史。今天买面包和牛奶花了xxx元，明天要早点起床，做&amp;hellip;&amp;rdquo;
-那一天拿破仑出生在科西嘉岛上，让·皮埃尔先生后来成为他手下的一个小军官，病死在征战途中。</description>
-    </item>
-    
-    <item>
-      <title>E300 Econometric Methods</title>
-      <link>https://lwg342.github.io/Teaching/E300/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lwg342.github.io/Teaching/E300/</guid>
-      <description>E300 Econometric Methods Zoom Revision Class   Date and Time: April 22, 9-11 am BST
-  Venue: Zoom
-  Material: Chapter 36 &amp;ldquo;Large sample estimation and hypothesis testing&amp;rdquo; in the Handbook of Econometrics by Newey and McFadden(1994).
-  Office Hours Thursdays, 17.00 - 18.00, starting this week, at the following locations:
- Oct. 17 - Supervision Room 1 Oct. 24 - Supervision Room 1 Oct. 31 - Supervision Room 1 Nov.</description>
-    </item>
-    
-    <item>
-      <title>F400 Asset Pricing</title>
-      <link>https://lwg342.github.io/Teaching/F400/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lwg342.github.io/Teaching/F400/</guid>
-      <description>F400 Asset Pricing Office Hours  Wednesday 5-6 pm  13th Feb, Supervision room 1; 20th Feb, Meade room; 27th Feb, Supervision room 2; 6th March, Supervision room 2; 13th March, Marshall room; 20th March, Supervision Room 1.    Supplementary Materials  Details on Computing the Certainty Equivalence in Chapter 2 Details on Black-Scholes Derivation Details on Finding the Term Structure Equation Solution to Vasicek Model  </description>
-    </item>
     
     <item>
       <title>Individual Stock Return Full Sample</title>
@@ -58,16 +25,6 @@
       
       <guid>https://lwg342.github.io/Nonlinear-Beta-Tests-Results/result_Individual-Stock-Return-Sub-sample/</guid>
       <description>Individual Stock Return Sub-sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30 to 1999-12-31 Estimating Average Excess Return with:	2000-01-31 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 463)     Model Tn Left CV Right CV Is Nonlinear?     MktRf -0.896 -1.43 1.408    HML 0.107 -1.387 1.107    SMB 2.167 -1.486 1.665 *   nxf 0.</description>
-    </item>
-    
-    <item>
-      <title>Paper 6 Banking and Finance</title>
-      <link>https://lwg342.github.io/Teaching/Paper6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lwg342.github.io/Teaching/Paper6/</guid>
-      <description>Paper 6 Banking and Finance About different channels Link to Bernanke speech
- Financial accelerator: changes in financial and credit conditions are important in the propagation of the business cycle, a mechanism that has been dubbed the &amp;ldquo;financial accelerator.&amp;rdquo; Credit channel: changes in financial conditions may amplify the effects of monetary policy on the economy, the so-called credit channel of monetarypolicy transmission. Credit channel works through (wiki link)  Balance sheet channel Bank lending channel    Models  CSV model CE model  Both models can show the financial acceleartor and the credit channel: roughly speaking, the models predict/explain that when a shock happens, it will be amplified through the banking system because banks will change credit rationing behaviour.</description>
     </item>
     
     <item>
