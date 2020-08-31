@@ -3,26 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lwg342.github.io/Notes/Notes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://lwg342.github.io/Notes/Journal/</loc>
-  </url>
-  
-  <url>
     <loc>https://lwg342.github.io/Teaching/</loc>
     <lastmod>2020-06-24T17:00:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lwg342.github.io/Notes/History/</loc>
-    <lastmod>2020-06-29T11:06:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lwg342.github.io/Notes/History/</loc>
-    <lastmod>2020-05-18T22:01:58+00:00</lastmod>
   </url>
   
   <url>
@@ -31,7 +13,8 @@
   </url>
   
   <url>
-    <loc>https://lwg342.github.io/Notes/Physics/</loc>
+    <loc>https://lwg342.github.io/Nonlinear-Beta-Project/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -41,10 +24,6 @@
   <url>
     <loc>https://lwg342.github.io/</loc>
     <lastmod>2020-06-24T17:00:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lwg342.github.io/Notes/Data/</loc>
   </url>
   
   <url>
@@ -58,18 +37,36 @@
   </url>
   
   <url>
-    <loc>https://lwg342.github.io/Notes/Finance/</loc>
-    <lastmod>2020-06-29T11:06:40+01:00</lastmod>
+    <loc>https://lwg342.github.io/Nonlinear-Beta-Project/result_Individual-Stock-Return-Full-Sample/</loc>
   </url>
   
   <url>
-    <loc>https://lwg342.github.io/Notes/</loc>
-    <lastmod>2020-06-24T17:00:30+01:00</lastmod>
+    <loc>https://lwg342.github.io/Nonlinear-Beta-Project/result_Individual-Stock-Return-Sub-sample/</loc>
   </url>
   
   <url>
     <loc>https://lwg342.github.io/Teaching/Paper6/</loc>
     <lastmod>2020-06-24T17:00:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lwg342.github.io/Nonlinear-Beta-Project/result_Portfolio-202-Full-Sample/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lwg342.github.io/Nonlinear-Beta-Project/result_Portfolio-202-Individual-Factor/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lwg342.github.io/Nonlinear-Beta-Project/result_Portfolio-202-Sub-sample/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lwg342.github.io/Nonlinear-Beta-Project/result_Portfolio-5x5-Full-Sample/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lwg342.github.io/Nonlinear-Beta-Project/result_Portfolio-5x5-Sub-sample/</loc>
   </url>
   
   <url>
