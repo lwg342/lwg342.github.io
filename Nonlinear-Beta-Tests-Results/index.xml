@@ -15,8 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lwg342.github.io/Nonlinear-Beta-Tests-Results/result_Individual-Stock-Return-Full-Sample/</guid>
-      <description>haha
-Individual Stock Return Full Sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30 to 2017-12-29 Estimating Average Excess Return with:	1976-07-30 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 463)     Model Tn Left CV Right CV Is Nonlinear?     MktRf 2.144 -1.474 1.778 *   HML 2.126 -1.422 1.363 *   SMB -0.185 -1.489 1.566    nxf -0.</description>
+      <description>Individual Stock Return Full Sample  Cross Sectional Regression has intercept:	1 Bootstrap Iterations:	1000 Estimating Beta With:	1976-07-30 to 2017-12-29 Estimating Average Excess Return with:	1976-07-30 00:00:00-2017-12-29 00:00:00 Return Dimension TxN:	(498, 463)     Model Tn Left CV Right CV Is Nonlinear?     MktRf 2.144 -1.474 1.778 *   HML 2.126 -1.422 1.363 *   SMB -0.185 -1.489 1.566    nxf -0.</description>
     </item>
     
     <item>
