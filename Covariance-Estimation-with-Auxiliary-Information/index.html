@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+<script type="text/javascript" src="path-to-MathJax/MathJax.js?config=TeX-AMS_HTML">
 </script>
 <head>
   <meta charset="UTF-8">
@@ -17,7 +30,7 @@ We randomly generate $T = 100$ observations of $X \sim N(0,\Sigma)$. And use thi
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.d7fcbacc460ed59abe2512db73105d2d2cca68c0880febf9062c13874b4607b4.css" integrity="sha256-1/y6zEYO1Zq&#43;JRLbcxBdLSzKaMCID&#43;v5BiwTh0tGB7Q=">
-<script defer src="/en.search.min.a6dbd866d178cde1460c0faaf8a6ee9dc065796b7a20154c32f0b20fe6ee9b1f.js" integrity="sha256-ptvYZtF4zeFGDA&#43;q&#43;KbuncBleWt6IBVMMvCyD&#43;bumx8="></script>
+<script defer src="/en.search.min.f6640ca522199cf739428eeb05a7dd75b30f432d596a621ad1b732da8932ce5a.js" integrity="sha256-9mQMpSIZnPc5Qo7rBafddbMPQy1ZamIa0bcy2okyzlo="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -292,7 +305,7 @@ https://github.com/alex-shpak/hugo-book
       
   <article class="markdown"><h1 id="model-set-up">Model set up</h1>
 <p>We have generated a $800*800$ block diagnoal population covaraince $\Sigma$, with each block, $\sigma_{ij} = \rho^{\lvert{i - j}\rvert}$. Here $\rho = 0.99$. The following figure shows the covariance matrix.</p>
-<p><img src="./fig/population%20covariance%20matrix%20Sigma.png" alt="Heatmap of Population Covariance" title="Title"/></p>
+<p><img src="/Covariance%20Estimation%20with%20Auxiliary%20Information/fig/population%20covariance%20matrix%20Sigma.png" alt="Heatmap of Population Covariance" title="Title"/></p>
 <p>We randomly generate $T = 100$ observations of $X \sim N(0,\Sigma)$. And use this to construct the following estimator:</p>
 <ol>
 <li>Sample covariance: $S = \frac{1}{T}XX'$;</li>
@@ -303,7 +316,7 @@ https://github.com/alex-shpak/hugo-book
 $$G_{ij} = 1 \quad \text{if} \quad i \neq j, \quad \sigma_{ij} &gt; 0.7 $$</p>
 <p>Then we can construct two new estimators:</p>
 <ol start="3">
-<li>Hard thresholding estimator with $G$: ${S}<em>G$ where we only keep those elements $S</em>{ij}$ in the sample covariance $S$ such that $G_{ij} = 1$.</li>
+<li>Hard thresholding estimator with $G$ : $S_G$  where we only keep those elements $S_{ij}$ in the sample covariance $S$ such that $G_{ij} = 1$.</li>
 <li>$S_{new}$, which is shrinkage with two targets: we construct a linear combination of $I$, $S$, $S_G$ such that the MSE of estimating $\Sigma$ is minimized. <a href="a.pdf">Details of Calculation</a>.</li>
 </ol>
 <p>The errors of estimation for matrix 1-norm is:</p>
@@ -343,14 +356,43 @@ $$G_{ij} = 1 \quad \text{if} \quad i \neq j, \quad \sigma_{ij} &gt; 0.7 $$</p>
 </tr>
 </tbody>
 </table>
-<p>The erro for Frobinius Norm is:
-|    | 0                             |        1 |
-|&mdash;:|:&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;|&mdash;&mdash;&mdash;:|
-|  0 | Norm of Population Covariance | 373.378  |
-|  1 | Estimation error of S         |  88.3676 |
-|  2 | Estimation error of S_lw      |  79.8294 |
-|  3 | Estimation error of S_G       | 252.26   |
-|  4 | Estimation error of S_new     |  74.9107 |</p>
+<p>The erro for Frobinius Norm is:</p>
+<table>
+<thead>
+<tr>
+<th align="right"></th>
+<th align="left">0</th>
+<th align="right">1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">0</td>
+<td align="left">Norm of Population Covariance</td>
+<td align="right">373.378</td>
+</tr>
+<tr>
+<td align="right">1</td>
+<td align="left">Estimation error of S</td>
+<td align="right">88.3676</td>
+</tr>
+<tr>
+<td align="right">2</td>
+<td align="left">Estimation error of S_lw</td>
+<td align="right">79.8294</td>
+</tr>
+<tr>
+<td align="right">3</td>
+<td align="left">Estimation error of S_G</td>
+<td align="right">252.26</td>
+</tr>
+<tr>
+<td align="right">4</td>
+<td align="left">Estimation error of S_new</td>
+<td align="right">74.9107</td>
+</tr>
+</tbody>
+</table>
 </article>
  
       
