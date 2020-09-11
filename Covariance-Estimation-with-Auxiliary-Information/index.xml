@@ -5,9 +5,19 @@
     <link>https://lwg342.github.io/Covariance-Estimation-with-Auxiliary-Information/</link>
     <description>Recent content in Covariance Estimation with Auxiliary Information on Weiguang Liu</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 11 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lwg342.github.io/Covariance-Estimation-with-Auxiliary-Information/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Empirical Study</title>
+      <link>https://lwg342.github.io/Covariance-Estimation-with-Auxiliary-Information/empirical/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lwg342.github.io/Covariance-Estimation-with-Auxiliary-Information/empirical/</guid>
+      <description>Empirical Study I followed Ledoit and Wolf 2017, and computed the std of portfolio constructed based on the estimated $\hat{\Sigma}$.</description>
+    </item>
     
   </channel>
 </rss>

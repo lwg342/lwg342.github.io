@@ -10,6 +10,15 @@
     
     
     <item>
+      <title>Empirical Study</title>
+      <link>https://lwg342.github.io/Covariance-Estimation-with-Auxiliary-Information/empirical/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lwg342.github.io/Covariance-Estimation-with-Auxiliary-Information/empirical/</guid>
+      <description>Empirical Study I followed Ledoit and Wolf 2017, and computed the std of portfolio constructed based on the estimated $\hat{\Sigma}$.</description>
+    </item>
+    
+    <item>
       <title>五月15</title>
       <link>https://lwg342.github.io/posts/0515/</link>
       <pubDate>Fri, 15 May 2020 21:20:55 +0100</pubDate>

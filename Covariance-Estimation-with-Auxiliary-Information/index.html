@@ -18,19 +18,19 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Model set up We have generated a $800*800$ block diagnoal population covaraince $\Sigma$, with each block, $\sigma_{ij} = \rho^{\lvert{i - j}\rvert}$. Here $\rho = 0.99$. The following figure shows the covariance matrix.
+<meta name="description" content="Model set-up We have generated a $800*800$ block diagnoal population covaraince $\Sigma$, with each block, $\sigma_{ij} = \rho^{\lvert{i - j}\rvert}$. Here $\rho = 0.99$. The following figure shows the covariance matrix.
 We randomly generate $T = 100$ observations of $X \sim N(0,\Sigma)$. And use this to construct the following estimator:
  Sample covariance: $S = \frac{1}{T}XX&#39;$; Ledoit-Wolf linear shrinkage estimator: $S_{lw}$.  Auxiliary Information Assume in addition to $X$, we also observe a network $G$ that indicates the existence of link between $i,j$.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Covariance Estimation with Auxiliary Information" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://lwg342.github.io/Covariance-Estimation-with-Auxiliary-Information/" />
-
+<meta property="og:updated_time" content="2020-09-11T00:00:00+00:00" />
 <title>Covariance Estimation with Auxiliary Information | Weiguang Liu</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.d7fcbacc460ed59abe2512db73105d2d2cca68c0880febf9062c13874b4607b4.css" integrity="sha256-1/y6zEYO1Zq&#43;JRLbcxBdLSzKaMCID&#43;v5BiwTh0tGB7Q=">
-<script defer src="/en.search.min.dcfd042f956180379290e5375eaefcc5c932a6bcbd2855b2123ad296551c69da.js" integrity="sha256-3P0EL5VhgDeSkOU3Xq78xckypry9KFWyEjrSllUcado="></script>
+<script defer src="/en.search.min.b248c29d7c0487c3648e150d79669260d8240a6c9ba88318fac80e937719e45e.js" integrity="sha256-skjCnXwEh8NkjhUNeWaSYNgkCmybqIMY&#43;sgOk3cZ5F4="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -122,6 +122,16 @@ https://github.com/alex-shpak/hugo-book
 
   
   <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/Covariance-Estimation-with-Auxiliary-Information/empirical/" class="">Empirical Study</a>
+  
+
+        </li>
+      
     
   </ul>
   
@@ -290,7 +300,7 @@ https://github.com/alex-shpak/hugo-book
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#model-set-up">Model set up</a></li>
+    <li><a href="#model-set-up">Model set-up</a></li>
     <li><a href="#auxiliary-information">Auxiliary Information</a></li>
   </ul>
 </nav>
@@ -303,9 +313,9 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="model-set-up">Model set up</h1>
+  <article class="markdown"><h1 id="model-set-up">Model set-up</h1>
 <p>We have generated a $800*800$ block diagnoal population covaraince $\Sigma$, with each block, $\sigma_{ij} = \rho^{\lvert{i - j}\rvert}$. Here $\rho = 0.99$. The following figure shows the covariance matrix.</p>
-<p><img src="/Covariance%20Estimation%20with%20Auxiliary%20Information/fig/population%20covariance%20matrix%20Sigma.png" alt="Heatmap of Population Covariance" title="Title"/></p>
+<p><img src="population%20covariance%20matrix%20Sigma.png" alt="Heatmap of Population Covariance" title="Title"/></p>
 <p>We randomly generate $T = 100$ observations of $X \sim N(0,\Sigma)$. And use this to construct the following estimator:</p>
 <ol>
 <li>Sample covariance: $S = \frac{1}{T}XX'$;</li>
@@ -428,7 +438,7 @@ $$G_{ij} = 1 \quad \text{if} \quad i \neq j, \quad \sigma_{ij} &gt; 0.7 $$</p>
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#model-set-up">Model set up</a></li>
+    <li><a href="#model-set-up">Model set-up</a></li>
     <li><a href="#auxiliary-information">Auxiliary Information</a></li>
   </ul>
 </nav>
