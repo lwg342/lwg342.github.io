@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="F400 Asset Pricing Office Hours Wednesday 5-6 pm 13th Feb, Supervision room 1; 20th Feb, Meade room; 27th Feb, Supervision room 2; 6th March, Supervision room 2; 13th March, Marshall room; 20th March, Supervision Room 1. Supplementary Materials Details on Computing the Certainty Equivalence in Chapter 2 Details on Black-Scholes Derivation Details on Finding the Term Structure Equation Solution to Vasicek Model " />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://lwg342.github.io/teaching/f400/" />
+
+
+    <title>
+        
+            F400 Asset Pricing :: Weiguang Liu 
+        
+    </title>
+
+
+
+
+
+<link rel="stylesheet" href="https://lwg342.github.io/main.f9d9a87d2e70c22c8e4afd636154cd7deb1548a95a9c3de2330b92c6ae05d66e.css" integrity="sha256-&#43;dmofS5wwiyOSv1jYVTNfesVSKlanD3iMwuSxq4F1m4=">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://lwg342.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://lwg342.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://lwg342.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://lwg342.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://lwg342.github.io/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://lwg342.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+<meta itemprop="name" content="F400 Asset Pricing">
+<meta itemprop="description" content="F400 Asset Pricing Office Hours Wednesday 5-6 pm 13th Feb, Supervision room 1; 20th Feb, Meade room; 27th Feb, Supervision room 2; 6th March, Supervision room 2; 13th March, Marshall room; 20th March, Supervision Room 1. Supplementary Materials Details on Computing the Certainty Equivalence in Chapter 2 Details on Black-Scholes Derivation Details on Finding the Term Structure Equation Solution to Vasicek Model ">
+
+<meta itemprop="wordCount" content="62">
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="F400 Asset Pricing"/>
+<meta name="twitter:description" content="F400 Asset Pricing Office Hours Wednesday 5-6 pm 13th Feb, Supervision room 1; 20th Feb, Meade room; 27th Feb, Supervision room 2; 6th March, Supervision room 2; 13th March, Marshall room; 20th March, Supervision Room 1. Supplementary Materials Details on Computing the Certainty Equivalence in Chapter 2 Details on Black-Scholes Derivation Details on Finding the Term Structure Equation Solution to Vasicek Model "/>
+
+
+
+    <meta property="og:title" content="F400 Asset Pricing" />
+<meta property="og:description" content="F400 Asset Pricing Office Hours Wednesday 5-6 pm 13th Feb, Supervision room 1; 20th Feb, Meade room; 27th Feb, Supervision room 2; 6th March, Supervision room 2; 13th March, Marshall room; 20th March, Supervision Room 1. Supplementary Materials Details on Computing the Certainty Equivalence in Chapter 2 Details on Black-Scholes Derivation Details on Finding the Term Structure Equation Solution to Vasicek Model " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lwg342.github.io/teaching/f400/" /><meta property="article:section" content="teaching" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://lwg342.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text logo__pathname">
+                $ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://lwg342.github.io/CV.pdf">CV</a></li><li><a href="https://lwg342.github.io/research/">Research</a></li><li><a href="https://lwg342.github.io/teaching/">Teaching</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            
+
+            
+            
+            
+
+            <div class="post-content">
+                <h1 id="f400-asset-pricing">F400 Asset Pricing</h1>
+<h2 id="office-hours">Office Hours</h2>
+<ul>
+<li>Wednesday 5-6 pm
+<ul>
+<li>13th Feb, Supervision room 1;</li>
+<li>20th Feb, Meade room;</li>
+<li>27th Feb, Supervision room 2;</li>
+<li>6th March, Supervision room 2;</li>
+<li>13th March, Marshall room;</li>
+<li>20th March, Supervision Room 1.</li>
+</ul>
+</li>
+</ul>
+<h2 id="supplementary-materials">Supplementary Materials</h2>
+<ul>
+<li><a href="https://lwg342.github.io/F400/completing-quadratic.pdf">Details on Computing the Certainty Equivalence in Chapter 2</a></li>
+<li><a href="https://lwg342.github.io/F400/Details-of-B-S.pdf">Details on Black-Scholes Derivation</a></li>
+<li><a href="https://lwg342.github.io/F400/Details-of-term-structure-equation.pdf">Details on Finding the Term Structure Equation</a></li>
+<li><a href="https://lwg342.github.io/F400/Vasicek%20Solution.pdf">Solution to Vasicek Model</a></li>
+</ul>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://lwg342.github.io/bundle.min.46e438bd2eca7eb6358c700b40f6f56b22ab0b92503ecc11a2d8e4bcc610b8b4da83e5ea3d3e84fdb5f3c3c765744b9f5bbaf43cf5a027910be07ee39a9c12a1.js" integrity="sha512-RuQ4vS7KfrY1jHALQPb1ayKrC5JQPswRotjkvMYQuLTag&#43;XqPT6E/bXzw8dldEufW7r0PPWgJ5EL4H7jmpwSoQ=="></script>
+
+
+
+
+    </body>
+</html>

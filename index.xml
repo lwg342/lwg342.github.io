@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weiguang Liu</title>
+    <link>https://lwg342.github.io/</link>
+    <description>Recent content on Weiguang Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 01 Jan 1970 01:33:41 +0100</lastBuildDate>
+    <atom:link href="https://lwg342.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E300 Econometric Methods</title>
+      <link>https://lwg342.github.io/teaching/e300/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:41 +0100</pubDate>
+      <guid>https://lwg342.github.io/teaching/e300/</guid>
+      <description>E300 Econometric Methods Zoom Revision Class Date and Time: April 22, 9-11 am BST&#xA;Venue: Zoom&#xA;Material: Chapter 36 &amp;ldquo;Large sample estimation and hypothesis testing&amp;rdquo; in the Handbook of Econometrics by Newey and McFadden(1994).&#xA;Office Hours Thursdays, 17.00 - 18.00, starting this week, at the following locations:&#xA;Oct. 17 - Supervision Room 1 Oct. 24 - Supervision Room 1 Oct. 31 - Supervision Room 1 Nov. 7 - Meade Room Nov.</description>
+    </item>
+    <item>
+      <title>F400 Asset Pricing</title>
+      <link>https://lwg342.github.io/teaching/f400/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lwg342.github.io/teaching/f400/</guid>
+      <description>F400 Asset Pricing Office Hours Wednesday 5-6 pm 13th Feb, Supervision room 1; 20th Feb, Meade room; 27th Feb, Supervision room 2; 6th March, Supervision room 2; 13th March, Marshall room; 20th March, Supervision Room 1. Supplementary Materials Details on Computing the Certainty Equivalence in Chapter 2 Details on Black-Scholes Derivation Details on Finding the Term Structure Equation Solution to Vasicek Model </description>
+    </item>
+    <item>
+      <title>Paper 6 Banking and Finance</title>
+      <link>https://lwg342.github.io/teaching/paper6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lwg342.github.io/teaching/paper6/</guid>
+      <description>Paper 6 Banking and Finance About different channels Link to Bernanke speech&#xA;Financial accelerator: changes in financial and credit conditions are important in the propagation of the business cycle, a mechanism that has been dubbed the &amp;ldquo;financial accelerator.&amp;rdquo; Credit channel: changes in financial conditions may amplify the effects of monetary policy on the economy, the so-called credit channel of monetarypolicy transmission. Credit channel works through (wiki link) Balance sheet channel Bank lending channel Models CSV model CE model Both models can show the financial acceleartor and the credit channel: roughly speaking, the models predict/explain that when a shock happens, it will be amplified through the banking system because banks will change credit rationing behaviour.</description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://lwg342.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lwg342.github.io/research/</guid>
+      <description>Research Working papers &amp;ldquo;Normal approximation for U-statistics with cross-sectional dependence&amp;rdquo; [PDF] &amp;ldquo;Nonparametric specification tests with cross-sectional dependence&amp;rdquo; [PDF] &amp;ldquo;High-dimensional covariance estimation with structural information&amp;rdquo; [PDF] &amp;ldquo;Should We Augment Large Covariance Matrix Estimation with Auxiliary Network Information?&amp;rdquo;, with Shuyi Ge, Shaoran Li, Oliver Linton and Wen Su. [PDF] &amp;ldquo;Conformal prediction for interval outcomes&amp;rdquo;, with Aureo de Paula and Elie Tamer. Work in progress &amp;ldquo;Nonlinear beta tests in asset returns&amp;rdquo;, with Oliver Linton.</description>
+    </item>
+    <item>
+      <title>Teaching</title>
+      <link>https://lwg342.github.io/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lwg342.github.io/teaching/</guid>
+      <description>Teaching 2021 R301 Time Series E300 Econometric Methods 2020 E300 Econometric Methods 2019 F400 Asset Pricing Paper 6 Banking and Finance 2018 E101 Applied Microeconomics </description>
+    </item>
+  </channel>
+</rss>
