@@ -28,6 +28,9 @@ html {
 
 body {
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: "Noto Sans", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.65;
@@ -36,6 +39,8 @@ body {
 }
 
 img { max-width: 100%; }
+
+main { flex: 1 0 auto; }
 
 a { color: var(--link); text-decoration: none; }
 a:hover { color: var(--link-hover); text-decoration: underline; }
@@ -112,9 +117,9 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 
 h1, h2, h3, h4 { line-height: 1.25; color: var(--accent); }
 
-h1 { margin: 0 0 12px; font-size: 46px; }
-h2 { margin: 0 0 20px; font-size: 34px; }
-h3 { margin: 40px 0 16px; font-size: 25px; }
+h1 { margin: 0 0 12px; font-size: 39px; }
+h2 { margin: 0 0 20px; font-size: 29px; }
+h3 { margin: 40px 0 16px; font-size: 21px; }
 h4 { margin: 0 0 5px; font-size: 19px; }
 
 .role {
@@ -271,6 +276,12 @@ h4 { margin: 0 0 5px; font-size: 19px; }
   padding-left: 22px;
 }
 .clean-list li { margin: 8px 0; }
+.talk-list strong {
+  color: var(--ink);
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.35;
+}
 .two-column { columns: 2; column-gap: 52px; }
 .two-column li { break-inside: avoid; }
 
@@ -286,7 +297,7 @@ h4 { margin: 0 0 5px; font-size: 19px; }
   margin-bottom: 0;
   padding-bottom: 26px;
 }
-.page-title h1 { margin-bottom: 0; font-size: 46px; }
+.page-title h1 { margin-bottom: 0; font-size: 39px; }
 .page-title p { color: var(--muted); margin: 0; font-size: 19px; }
 
 .content-section {
@@ -310,7 +321,7 @@ h4 { margin: 0 0 5px; font-size: 19px; }
 
 .publication-title-link {
   color: var(--ink);
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 600;
   line-height: 1.35;
 }
@@ -340,10 +351,9 @@ a.publication-title-link:hover {
 }
 
 .footer {
-  border-top: 1px solid var(--line);
-  background: var(--soft);
+  display: none;
   color: var(--muted);
-  font-size: 15px;
+  font-size: 13px;
 }
 .footer-inner {
   padding-top: 20px;
@@ -399,9 +409,9 @@ a.publication-title-link:hover {
     width: 180px;
     height: 180px;
   }
-  h1 { font-size: 33px; }
-  h2 { font-size: 25px; }
-  h3 { margin-top: 32px; font-size: 21px; }
+  h1 { font-size: 29px; }
+  h2 { font-size: 22px; }
+  h3 { margin-top: 32px; font-size: 19px; }
   h4 { font-size: 17px; }
   .role,
   .main-copy > p,
@@ -416,9 +426,10 @@ a.publication-title-link:hover {
     margin-bottom: 0;
     padding-bottom: 22px;
   }
-  .page-title h1 { font-size: 33px; }
+  .page-title h1 { font-size: 29px; }
   .content-section { padding: 22px 0; }
-  .publication-title-link { font-size: 19px; }
+  .publication-title-link { font-size: 17px; }
+  .talk-list strong { font-size: 17px; }
   .two-column { columns: 1; }
   .footer-inner { gap: 10px 18px; }
   .cv-frame { min-height: 560px; height: 72vh; }
@@ -436,10 +447,11 @@ a.publication-title-link:hover {
     height: 150px;
   }
   h1,
-  .page-title h1 { font-size: 30px; }
-  h2 { font-size: 23px; }
-  h3 { font-size: 20px; }
-  .publication-title-link { font-size: 18px; }
+  .page-title h1 { font-size: 26px; }
+  h2 { font-size: 20px; }
+  h3 { font-size: 18px; }
+  .publication-title-link { font-size: 16.5px; }
+  .talk-list strong { font-size: 16.5px; }
   .role,
   .main-copy > p,
   .page-title p { font-size: 16px; }
